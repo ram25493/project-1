@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV</title>
+    <link rel="stylesheet" href="./ResponsiveCV_files/style69.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="navbar">
+            <img class="logo" src="./ResponsiveCV_files/logo.png" alt="logo">
+
+            <nav>
+                <ul id="navul1">
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#skills">Skills</a></li>
+                    <li> <a href="#education">Education</a></li>
+                    <li><a href="#exp">Experience</a></li>
+
+                </ul>
+            </nav>
+
+            <img class="micon" src="./ResponsiveCV_files/menu-button-of-three-horizontal-lines.png" alt="menu"
+                onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+
+            <div class="col1">
+                <h1>Shriram Gaikwad</h1>
+                <h2>Full Stack Software Developer</h2>
+                <h5><a
+                        href="https://www.linkedin.com/in/shriram-g-322b65161/">https://www.linkedin.com/in/shriram-g-322b65161/</a>
+                </h5>
+                <button class="cvbutton" type="button" name="Download CV">
+                    <a href="./ResponsiveCV_files/shriramResume.pdf">Download CV</a>
+                </button>
+            </div>
+            <div class="col2">
+                <img src="./ResponsiveCV_files/dp.png" alt="My image" class="dp">
+                <div class="colordiv"></div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row2" id="about">
+
+            <h2> About </h2>
+            <p>
+                Highly skilled software development professional having 1 year of experience in software design,
+                development and integration. Excellent skills in Angular, HTML, CSS ,JavaScript . True team player
+                with strengths in adaptability and accuracy.
+            </p>
+
+
+        </div>
+
+        <hr>
+
+        <div class="row3" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Angular</li>
+                <li>MySql</li>
+                <li>Angular</li>
+
+            </ul>
+        </div>
+        <hr>
+        <div class="row4" id="education">
+            <h2>Education</h2>
+
+            <h5>Post Graduation</h5>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Sinhgad Institute Pune</td>
+                        <td>2018</td>
+                        <td>6.61 CGPA</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <h5>Graduation</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Modern College Pune</td>
+                        <td> 2015</td>
+                        <td>48.80%</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+            <h5>High School</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Abasaheb Garware College Pune</td>
+                        <td> 2010</td>
+                        <td>55.67%</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+            <h5>SSC</h5>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>New English School Pune</td>
+                        <td> 2008</td>
+                        <td>77.38%</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <hr>
+
+        <hr>
+
+        <div class="row6" id="exp">
+            <h1>Experience</h1>
+            <p>Junior Software Developer</p>
+
+            <h3>Dreampark Infotech And Media Pune</h3>
+            <p>November 2019 - November 2020</p>
+            <ul>
+                    <li>Worked on Angular 8 modules, services, templates, directives, services and dependency
+                        injection to create a SPA.
+                        </li>
+                    <li>Integrated user facing angular components with server side using RESTful Web services. </li>
+                    <li>Assured that all user input is validated before submitting to back-end.</li>
+                    <li>Built reusable code for future use.</li>
+                    <li>Created clean, precise browser-compatible code.</li>
+            </ul>
+
+        </div>
+        <hr>
+
+        <div class="row7">
+            <h1>Interests</h1>
+            <ul>
+                <li>Reading</li>
+                <li>Anime</li>
+                <li>Music</li>
+            </ul>
+
+        </div>
+        <hr>
+
+    </div>
+
+    <script>
+        var navul1 = document.getElementById("navul1");
+
+        navul1.style.maxHeight = "0px"
+
+        function togglemenu() {
+            if (navul1.style.maxHeight == "0px") {
+                navul1.style.maxHeight = "130px";
+            }
+            else {
+                navul1.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
